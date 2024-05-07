@@ -17,7 +17,7 @@ Diretório responsável pelas classes utilizadas na API Rest do plugin.
 1. **class-tainacan-rest-controller.php**
     1. Arquivo responsável pela definição da classe abstrata ***REST_Controller*** que extende o Rest Controller padrão do Wordpress ***WP_REST_Controller.***
     2. No construtor da classe, é executado o hook do rest_api_init para que após a inicialização da API Rest, as rotas sejam registradas através do método register_routes
-2. ***endpoints/***
+2. **endpoints/***
     1. Arquivos controllers responsáveis por criar os métodos responsáveis por cada rota e os registrá-los
 3. **tainacan-rest-creator.php**
     1. Arquivo responsável por definir o namespace da API Rest
@@ -45,14 +45,14 @@ Os repositórios são responsáveis por implementar a camada de gerenciamento de
 1. **Repository** → class-tainacan-repository.php
     - Arquivo responsável pela definição da classe abstrata **Repository.** Ela contém propriedades e métodos que são comuns a todos os repositórios da aplicação.
 2. **Collections** → class-tainacan-collections.php
-3.  **Metadata** → class-tainacan-metadata.php
+3. **Metadata** → class-tainacan-metadata.php
 4. **MetadataSections** →class-tainacan-metadata-sections.php
-5.  **Filters** → class-tainacan-filters.php
+5. **Filters** → class-tainacan-filters.php
 6. **Items** → class-tainacan-items.php
-7.  **ItemMetadata** → class-tainacan-item-metadata.php
+7. **ItemMetadata** → class-tainacan-item-metadata.php
 8. **Taxonomies** → class-tainacan-taxonomies.php
 9. **Terms** → class-tainacan-terms.php
-10. **Logs** → class-tainacan-logs.php
+10.**Logs** → class-tainacan-logs.php
 
 ## ***views***
 
