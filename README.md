@@ -6,4 +6,3 @@ Este repositório visa armazenar os artefatos obtidos ao longo do estudo e capac
 
 - 🧠[Conceitos Chave Do Tainacan](conceitos-chaves.md) 
 - 🗺️[Mapeando o tainacan](mapeando-tainacan.md) 
-- 🏷️[Como criar meta dados](como-criar-metadados.md)
